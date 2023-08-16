@@ -1,14 +1,24 @@
-const pontos = document.getElementsByClassName('ponto')
+const rotas = document.getElementsByClassName("rota")
+const tabelasHorarios = document.getElementsByClassName("horarios")
 
-Array.from(pontos).forEach(ponto => {
-    ponto.addEventListener('mouseenter', function (evento) {
-        console.log('mouse enter')
-        // evento.target.style.backgroundColor = 'blue';
-    });
+// Iniciar com o primeiro horário selectionado
+setSelectedTable(0)
 
-    ponto.addEventListener('mouseleave', function (evento) {
-        console.log('mouse leave')
-        // evento.target.style.backgroundColor = 'white';
-    });
-});
+function handleRouteClick(routeIndex) {
+    setSelectedTable(routeIndex)
+}
+
+function setSelectedTable(routeIndex) {
+    Array.from(tabelasHorarios).forEach((tabela, tableIndex) => {
+        if (tableIndex === routeIndex) {
+            tabela.style.display = 'table'
+        } else {
+            tabela.style.display = 'none'
+        }
+    })
+}
+
+Array.from(rotas).forEach((rota, index) => {
+    rota.addEventListener('click', () => handleRouteClick(index))
+})
 

@@ -1,4 +1,3 @@
-/* Estilos de exemplo - você pode personalizá-los conforme necessário */
 body {
   font-family: Roboto,-apple-system,BlinkMacSystemFont,sans-serif;
 }
@@ -63,12 +62,17 @@ header {
   border-radius: 4px;
 }
 
-.horarios {
+.rotas {
   width: 40%;
 }
 
-.noticias {
+.horario-container {
   width: 60%;
+  margin-left: 40px;
+}
+
+.horarios {
+  width: 100%;
 }
 
 .logo img {
