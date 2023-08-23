@@ -2,6 +2,10 @@ body {
   font-family: Roboto,-apple-system,BlinkMacSystemFont,sans-serif;
 }
 
+p {
+  margin: 0;
+}
+
 header {
   color: gray;
   padding: 10px;
