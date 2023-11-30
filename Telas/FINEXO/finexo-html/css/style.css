@@ -127,7 +127,7 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background: linear-gradient(130deg, #231a6f, #0f054c);
+  background: linear-gradient(130deg, #0000ff, #1414b8);
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -623,8 +623,8 @@ a:focus {
   -webkit-transition: all .1s;
   transition: all .1s;
   margin-top: 45px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#002759), to(#002b64));
-  background: linear-gradient(to bottom, #002759, #002b64);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0000ff), to(#1414b8));
+  background: linear-gradient(to bottom, #0000ff, #1414b8);
 }
 
 .team_section .team_container .box .img-box {
