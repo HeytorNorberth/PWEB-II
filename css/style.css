@@ -946,3 +946,21 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+.social_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*background-color: red;*/
+  width: 100%;
+}
+
+.social_box a {
+  margin: 0px 10px; /* Adicione margens para espaçamento entre os ícones */
+}
+
+/* Adicione um estilo para os ícones, se desejar */
+.social_box i {
+  font-size: 24px; /* Ajuste o tamanho conforme necessário */
+  color: #ffffff; /* Adicione uma cor, se desejar */
+}
