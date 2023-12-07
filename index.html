@@ -52,7 +52,7 @@
             <!--<span>
               Picos Bus
             </span>-->
-            <img src="images/PicosBus-Logo.png" alt="Logo da Picos Bus">
+            <img src="images/PicosBus-LogoRedu.png" alt="Logo da Picos Bus">
           </a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -728,7 +728,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 info_col">
+        <!--<div class="col-md-6 col-lg-3 info_col">
           <div class="info_detail">
             <h4>
               Info
@@ -737,7 +737,7 @@
               necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
             </p>
           </div>
-        </div>
+        </div>-->
         <div class="col-md-6 col-lg-2 mx-auto info_col">
           <div class="info_link_box">
             <h4>
@@ -759,17 +759,29 @@
               <a class="" href="team.html">
                 Time
               </a>
+              <a class="" href="#">  
+                Acessar
+              </a>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 info_col ">
           <h4>
-            Subscribe
+            Feedbacks
           </h4>
-          <form action="#">
-            <input type="text" placeholder="Enter email" />
+          <form action="#"><!--Criar modal com campos-->
+            <input type="email" id="email" placeholder="Seu email" />
+            <label for="motivoContato">Motivo de Contato:</label>
+            <select style="margin-top: 5px;" name="MotivoContato" id="MotivoContato" required>
+              <option value="Picos Bus">Picos Bus</option>
+              <option value="Transporte">Transporte</option>
+              <option value="Reclamação">Reclamação</option>
+              <option value="Dúvida">Dúvida</option>
+              <option value="Outros">Outros</option>
+            </select>
+            <textarea id="feedback" name="feedback" placeholder="Deixe seus comentários ou sugestões" style="width: 100%;"></textarea>
             <button style="border-radius: 5px; "type="submit">
-              Inscreva-se
+              Enviar
             </button>
           </form>
         </div>
