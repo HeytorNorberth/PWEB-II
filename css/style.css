@@ -970,3 +970,15 @@ a:focus {
   font-size: 24px; /* Ajuste o tamanho conforme necessário */
   color: #ffffff; /* Adicione uma cor, se desejar */
 }
+
+table {
+
+  border-collapse: separate;
+  border-spacing: 10px; /* Altere o valor conforme necessário */
+  width: 80%;
+}
+
+th, td {
+  padding: 10px; /* Adicione algum espaço interno para melhorar a aparência */
+  text-align: justify; /* Alinha o conteúdo no centro das células */
+}
