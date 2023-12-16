@@ -806,7 +806,7 @@ a:focus {
 
 .info_section h4 {
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .info_section .info_col {
@@ -981,4 +981,14 @@ table {
 th, td {
   padding: 10px; /* Adicione algum espaço interno para melhorar a aparência */
   text-align: justify; /* Alinha o conteúdo no centro das células */
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding-left: 20px; /* ou qualquer valor desejado */
+  text-align: justify;
+  margin : 5px 0;
 }
